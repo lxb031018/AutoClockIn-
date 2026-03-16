@@ -1,2 +1,3 @@
 MainActivity有时间选择器和跳转“开启自启动” “关闭电池优化” “悬浮、锁屏通知”按钮，用户点击跳转开启这三个权限后app功能可正常运行
+SaveTime通过DataStore将用户设置好的目标时间持久化保存
 OnTimeRun使用了setExactAndAllowWhileIdle(int,long,PendingIntent)确保手机休眠时也能靠setExactAndAllowWhileIdle发送广播
